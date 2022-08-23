@@ -38,14 +38,14 @@ export const About = () => {
             framtida team.
             <br className="hidden lg:inline-block" />
             <br className="hidden lg:inline-block" />
-            Som app developer vill jag hjälpa ditt företag att nå ut med din
-            vision genom att möta de digitala behoven för dina kunder.
+            Som applikationsutvecklare vill jag hjälpa ditt företag att nå ut
+            med din vision genom att möta de digitala behoven för dina kunder.
             Genomgående under utbildningen har jag fått lära mig att en bra app
             ska inte bara fungera buggfritt, den ska också ha en design och
             funktionaliteter som gör den enkel för användaren. Däremot är jag
             ödmjuk inför att utveckling av digitala lösningar också bygger på
             egenutveckling och ett fortsatt lärande - jag vill lära mig mer
-            tillsammans mer er.
+            tillsammans med er.
           </p>
         </div>
       </div>
