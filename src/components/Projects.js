@@ -12,7 +12,8 @@ export const Projects = () => {
             Mina projekt
           </h1>
         </div>
-        <div className="flex flex-wrap -m-4">
+        {/* <div className="flex flex-wrap -m-4o"> */}
+        <div className="container px-5 py-10 mx-auto">
           {projects.map((project) => (
             <a
               href={project.link}
