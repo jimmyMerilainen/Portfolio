@@ -46,13 +46,10 @@ export const Projects = () => {
             <img
               alt="gallery"
               className="absolute inset-0 w-full h-full object-cover object-center"
-              src="./tgarden.jpg"
+              src="./rn.png"
             />
 
             <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-              <Video>
-                <source src={dgggVideo} type="video/webm" />
-              </Video>
               <h2 className="tracking-widest text-sm title-font font-medium text-emerald-400 mb-1">
                 React-Native and Firebase
               </h2>
@@ -63,6 +60,9 @@ export const Projects = () => {
                 Projektet jag jobbade med under min andra Lia period på
                 Technogarden
               </p>
+              <Video>
+                <source src={dgggVideo} type="video/webm" />
+              </Video>
             </div>
           </div>
         </div>
