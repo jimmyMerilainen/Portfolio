@@ -1,6 +1,9 @@
 import React from 'react'
 import { CodeIcon } from '@heroicons/react/solid'
 import { projects } from '../data'
+import { DefaultPlayer as Video } from 'react-html5video'
+import dgggVideo from '../video/DoGoodGetDood.MP4'
+import 'react-html5video/dist/styles.css'
 
 export const Projects = () => {
   return (
@@ -38,6 +41,30 @@ export const Projects = () => {
               </div>
             </a>
           ))}
+
+          <div className="flex relative">
+            <img
+              alt="gallery"
+              className="absolute inset-0 w-full h-full object-cover object-center"
+              src="./technogarden.jpg"
+            />
+
+            <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+              <Video>
+                <source src={dgggVideo} type="video/webm" />
+              </Video>
+              <h2 className="tracking-widest text-sm title-font font-medium text-emerald-400 mb-1">
+                React-Native and Firebase
+              </h2>
+              <h1 className="title-font text-lg font-medium text-white mb-3">
+                Do Good Get Good
+              </h1>
+              <p className="leading-relaxed">
+                Projektet jag jobbade med under min andra Lia period på
+                Technogarden
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
